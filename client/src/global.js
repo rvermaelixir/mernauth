@@ -1,0 +1,5 @@
+export const SUCCESS_STATUS = 200
+export const ALERT_TIMEOUT = 10000
+export const ERROR_ALERT = "ERROR_ALERT"
+export const WARNING_ALERT = "WARNINIG_ALERT"
+export const SUCCESS_ALERT ="SUCCESS_ALERT"

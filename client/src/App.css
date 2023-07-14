@@ -1,0 +1,140 @@
+:root {
+  --primary-color: #6d19f4;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.container--mini{
+  width: 360px !important;
+}
+
+.form-group{
+  margin-bottom: 1.5rem;
+}
+
+.form-group label{
+  margin-bottom: 0.25rem;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.btn-block{
+  width: 100%;
+}
+
+span.required {
+  color: red;
+  line-height: 2;
+  padding: 2.5px;
+}
+
+.right-nav{
+  width: 100%;
+  text-align: right;
+  
+}
+.block-navbar{
+  width: 100%;
+  flex-direction: row;
+}
+.nav-item{
+  margin-left: 1rem;
+}
+a{
+  text-decoration: none;
+}
+
+.form-sublink{
+  line-height: 2;
+  float: right;
+  color: #838E95;
+}
+
+.alerts{
+  position: absolute;
+  right: 10%;
+  margin-top: 20px;
+  width: 250px;
+  z-index: 9999;
+}
+.alerts p {
+  margin-bottom: 0.25rem;
+  padding: 5px 10px;
+  color: white;
+  border-radius: 5px;
+  font-weight: 600;
+  word-wrap: break-word;
+}
+
+.alerts button{
+  background-color: transparent;
+  border: none;
+  color: white;
+  right: 0px;
+  position: absolute;
+  top: 0px;
+}
+
+.SUCCESS_ALERT{
+  border: 2px solid #28a745!important;
+  background-color: rgba(40, 167, 69, 0.6);
+}
+
+.ERROR_ALERT{
+  border: 2px solid #dc3545!important;
+  background-color: rgba(220, 53, 69, 0.6)
+}
+
+.WARNINIG_ALERT{
+  border: 2px solid #ffc107!important;
+  background-color: rgba(255, 193, 7, 0.6);
+}
+
+
+.btn-form-submit{
+  background-color: var(--primary-color) !important;
+  color: white;
+}
+
+.invalid-feedback{
+  display: block;
+}
+.error{
+  color: red;
+}
